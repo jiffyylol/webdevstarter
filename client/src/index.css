@@ -1,0 +1,11 @@
+/* Tailwind v4: this one line loads all of Tailwind's utility classes. */
+@import "tailwindcss";
+
+/* Use the Nunito font (loaded in index.html) for all text. */
+@theme {
+  --font-sans: "Nunito", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+  background-color: #fcfaf7;
+}

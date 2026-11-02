@@ -1,0 +1,11 @@
+# Dependencies (regenerate with npm install)
+node_modules/
+
+# Secrets - API keys live here, never push them to GitHub
+.env
+
+# Build output
+dist/
+
+# macOS
+.DS_Store
